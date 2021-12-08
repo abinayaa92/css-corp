@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import User from './user';
 import Child2 from './Child2';
 import Child1 from './Child1';
 
@@ -106,6 +107,7 @@ class App extends Component {
         </button>
         <Child1 />
         <Child2 />
+        <User firstName="Abi" lastName="Kalyan" />
       </>
     );
   }
